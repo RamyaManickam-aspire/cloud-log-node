@@ -14,6 +14,7 @@ const app = express();
 // Define a simple route
 app.get("/", (req, res) => {
   logger.info("Home route accessed");
+  logger.info("Checking");
   res.send("Hello, World!");
 });
 
